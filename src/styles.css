@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.fizz-container {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(255, 0, 0, 0.26);
+  justify-content: center;
+}
+
+.fizz-card {
+  background-color: gray;
+  border-radius: 0.3rem;
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+  font-size: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-item {
+  display: inline;
+  padding: 1rem;
+}
